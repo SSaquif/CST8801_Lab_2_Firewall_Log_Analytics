@@ -1,0 +1,18 @@
+{
+  "name": "cst8801_lab_2_firewall_log_analytics",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.18.0",
+    "zod": "^4.3.6"
+  }
+}

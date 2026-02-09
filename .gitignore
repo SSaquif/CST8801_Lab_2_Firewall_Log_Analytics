@@ -1,0 +1,26 @@
+# python virtual environment
+.venv/
+__pycache__/
+.pytest_cache/
+
+# JS, TS and bun related files
+node_modules/
+dist/
+.bun/
+build/
+
+# Optional eslint cache
+.eslintcache
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# optional dotenv environment variable files for future
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
