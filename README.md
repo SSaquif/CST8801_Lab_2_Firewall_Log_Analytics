@@ -1,34 +1,11 @@
-# cst8801_lab_2_firewall_log_analytics
+# CST8801 Lab 2 Firewall Log Analytics
 
-This project at the moment has 2 parts:
+This project consists of a:
 
-- TS scripts to parse the firewall logs and extract initial insights
-  - This was set up using `bun init` in bun v1.0.23. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
-- A Jupyter notebook to perform further analysis and visualization of the data
-  - We are using a Python virtual environment for the Jupyter notebook
-  - `TODO:` We will eventually move the dependencies to `requirements.txt` for easier setup
+- A Jupyter notebook, used to perform further analysis and visualization of the data
+- The Json log file, which contains the firewall logs to be analyzed
 
-## Nodejs (Bun setup)
-
-Initial set up
-
-```bash
-bun init
-```
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.23. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+It uses a Python virtual environment for the Jupyter notebook
 
 ## Python (Jupyter notebook setup)
 
@@ -37,8 +14,8 @@ Virtual environment setup:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate
-pip -m pip install -U pip jupyter pandas
+pip -m pip install -U pip jupyter pandas numpy
 
-# Future
-# pip install -r requirements.txt
+# using requirements.txt for easier management of dependencies
+pip install -r requirements.txt
 ```
